@@ -1,0 +1,11 @@
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+array_shift($argv);
+$fileName = array_shift($argv);
+
+$appFolder = __DIR__;
+$storageFolder = $appFolder . '/storage';
+
+require_once __DIR__ . '/console/'.$fileName.'.php';

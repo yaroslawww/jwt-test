@@ -1,0 +1,47 @@
+{
+    "name": "yaroslawww/jwt-test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Yaroslav Georgitsa",
+            "email": "yaroslav.georgitsa@gmail.com"
+        }
+    ],
+    "description": "Landing",
+    "keywords": [
+    ],
+    "license": "",
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "firebase/php-jwt": "^5.2",
+        "illuminate/database": "^7.27",
+        "phpmailer/phpmailer": "^6.1",
+        "vlucas/phpdotenv": "^5.1"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "classmap": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+
+    }
+}
